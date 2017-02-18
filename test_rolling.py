@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
     def test_roll_range(self):
         # given
         expectedRollMin = 1
-        expectedRollMax = 6
+        expectedRollMax = 7
         self.randomizer.hardcodedRand = 6
 
         # when
